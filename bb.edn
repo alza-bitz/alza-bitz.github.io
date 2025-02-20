@@ -13,7 +13,7 @@
                    :blog-author "Alex Coyle"
                    :blog-root "http://localhost:1888/" ;; https://alza-bitz.github.io
                    :blog-title "Alza Bitz"
-                   :blog-description "A blog about various bitz.."
+                   :blog-description "A blog about software and data engineering bitz.."
                    :favicon true
                    :page-suffix ""})
   quickblog {:doc "Start blogging quickly! Run `bb quickblog help` for details."

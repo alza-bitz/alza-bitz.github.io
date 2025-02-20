@@ -15,9 +15,9 @@ Firstly, let's see how it could be done with the three most popular languages [^
 
 **Python.** Lots and lots of ways, based on the most popular post with [1.7m views and 69 answers](https://stackoverflow.com/questions/312443/how-do-i-split-a-list-into-equally-sized-chunks).
 
-**Java.** Lots of ways, based on these popular posts with [250k views and 23 answers](https://stackoverflow.com/questions/12026885/is-there-a-common-java-utility-to-break-a-list-into-batches), [166k views and 18 answers](https://stackoverflow.com/questions/5824825/efficient-way-to-divide-a-list-into-lists-of-n-size) unless you can use Java 22. [^2]
+**Java.** Lots of ways, based on these popular posts with [250k views and 23 answers](https://stackoverflow.com/questions/12026885/is-there-a-common-java-utility-to-break-a-list-into-batches), [166k views and 18 answers](https://stackoverflow.com/questions/5824825/efficient-way-to-divide-a-list-into-lists-of-n-size), unless you can use Java 22. [^2]
 
-**Javascript.** Lots and lots of ways, based on the most popular post with [1.3m views and 88 answers](https://stackoverflow.com/questions/8495687/split-array-into-chunks) unless the environment supports Baseline 2024. [^3]
+**Javascript.** Lots and lots of ways, based on the most popular post with [1.3m views and 88 answers](https://stackoverflow.com/questions/8495687/split-array-into-chunks), unless the environment supports Baseline 2024. [^3]
 
 In conclusion, for all these more popular languages we have 
 
@@ -63,7 +63,7 @@ Something to ponder next time you’re trying to do a simple thing and wondering
 
 ### Notes.
 
-**1.** A hypothesis for this difference, as to why the most popular languages don't provide  something that is independent of context or data structures, is due to incidental complexity resulting from their age and the prioritisation of backwards compatibility. The less popular languages I picked for this article are all much younger, as such they can learn from the past and adopt more recent academic research, in particular concerning data structures and the algorithms that operate on them. 
+**1.** A hypothesis for this difference, as to why the most popular languages don't provide  something that is independent of context or data structures, is due to incidental complexity resulting from their age and the prioritisation of backwards compatibility. The less popular languages chosen for this article are all much younger, as such they can learn from the past and adopt more recent academic research, in particular concerning data structures and the algorithms that operate on them. 
 
 **2.** Other than the Much of this discussion isn't really new, it's just another manifestation of what happens when programmer convenience and replaceability are prioritised above all other concerns, as described by Rich Hickey in his 2011 presentation [Simple Made Easy](https://youtu.be/LKtk3HCgTa8?t=546&si=v4mc0CTZOFGA87ay).
 
