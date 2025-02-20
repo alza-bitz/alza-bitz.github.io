@@ -1,0 +1,20 @@
+{:deps {io.github.borkdude/quickblog
+        #_"You use the newest SHA here:"
+        ;; https://github.com/borkdude/quickblog/commit/d00e14b1176416b7d7b88e6608b6975888208355
+        {:git/sha 
+        ;;  "389833f393e04d4176ef3eaa5047fa307a5ff2e8"
+         "d00e14b1176416b7d7b88e6608b6975888208355"
+         }
+        org.babashka/http-server {:mvn/version "0.1.13"}
+        }
+ :tasks
+ {:requires ([quickblog.cli :as cli])
+  :init (def opts {:about-link "https://github.com/alza-bitz"
+                   :blog-author "Alex Coyle"
+                   :blog-root "http://localhost:1888/" ;; https://alza-bitz.github.io
+                   :blog-title "Alza Bitz"
+                   :blog-description "A blog about various bitz.."
+                   :favicon true
+                   :page-suffix ""})
+  quickblog {:doc "Start blogging quickly! Run `bb quickblog help` for details."
+             :task (cli/dispatch opts)}}}
