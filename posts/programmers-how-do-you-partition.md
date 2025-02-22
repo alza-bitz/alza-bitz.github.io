@@ -65,7 +65,7 @@ Some thoughts to consider next time you're trying to do a simple thing and wonde
 
 ### Credits.
 
-[Igor Garcia](https://github.com/iggar) for your feedback and advice: thank you 🙏
+[Igor Garcia](https://www.linkedin.com/in/garciaigor) for your feedback and advice: thank you 🙏
 
 ### Notes.
 
