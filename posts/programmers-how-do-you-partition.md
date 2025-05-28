@@ -39,7 +39,7 @@ By contrast, let's look at three much less popular languages [^4] again consulti
 
 ***
 
-There seems to be a clear difference here. Despite the expected reduction in the number of views, given the same problem these less popular languages offer a single solution in their standard libraries that doesn't depend nearly as much on either the context or data structures involved.
+There seems to be a clear difference here. Despite the expected reduction in the number of post views, **these less popular languages offer a single solution in their standard libraries that doesn't depend nearly as much on either the context or data structures involved**.
 
 Without getting into why this difference might exist (although see note 1 below), _we have a situation today where a large population of programmers have to either carry this complexity in their heads or disrupt their flow to look it up, and then make a suitable decision, just to do such a simple thing?_
 
