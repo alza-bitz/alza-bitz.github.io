@@ -1,11 +1,11 @@
-Title: What Time Is It? 
+Title: What Time Is It? Understanding the Complexity of Data Streaming Tools
 Date: 2025-05-28
 Tags: data, streaming, flink, kafka, spark, storm
 Image: assets/images/what-time-is-it-256.jpg
 Image-Alt: A representation of the complexity in data streaming tools
 Twitter-Handle: alza_bitz
 
-### Understanding the complexity of data streaming tools.
+### I argue that static documentation is insufficient to reason about the stateful operations of data streaming tools.
 
 ![A representation of the complexity in data streaming tools](assets/images/what-time-is-it-256.jpg)
 
@@ -30,7 +30,7 @@ Based on the above, we can see that
 
 With that in mind, consider again that stateful data streaming problems necessarily involve the consideration of time, and as such they are fundamentally a **dynamic** concern. By contrast, written documentation is of course only **static** and for that reason I will submit that it is **inefficient and inadequate for the intended purpose**.
 
-Indeed, I was affected by this myself in February this year when I [ran into trouble with one of these tools](https://stackoverflow.com/questions/79476798/spark-structured-streaming-empty-result-for-a-stream-stream-inner-join-to-compu). I still don't know if the problem I encountered is due to a misunderstanding of the (20,000 word) documentation or a [bug](https://issues.apache.org/jira/browse/SPARK-51399).
+Indeed, I was affected by this issue personally when I [ran into trouble with one of these tools](https://stackoverflow.com/questions/79476798/spark-structured-streaming-empty-result-for-a-stream-stream-inner-join-to-compu). I still don't know if the problem I encountered is due to a misunderstanding of the (20,000 word) documentation or a [bug](https://issues.apache.org/jira/browse/SPARK-51399).
 
 ***
 
