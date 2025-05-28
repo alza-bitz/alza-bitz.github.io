@@ -5,6 +5,8 @@ Image: assets/images/programmers-how-do-you-partition-256.jpg
 Image-Alt: An overly complex machine for dividing a collection of candy into equal amounts
 Twitter-Handle: alza_bitz
 
+### I argue that the design of newer languages is more efficient for solving simple problems when compared to older languages.
+
 ![An overly complex machine for dividing a collection of candy into equal amounts](assets/images/programmers-how-do-you-partition-256.jpg)
 
 It's a good question! Let's start by defining the problem. A collection is defined here as any number of items, and partitioning is defined as the division of said items into n groups of equal size, with the last group possibly containing fewer than n items.
@@ -39,7 +41,7 @@ By contrast, let's look at three much less popular languages [^4] again consulti
 
 There seems to be a clear difference here. Despite the expected reduction in the number of views, given the same problem these less popular languages offer a single solution in their standard libraries that doesn't depend nearly as much on either the context or data structures involved.
 
-Without getting into why this difference might exist (although see note 1 below), _we have a situation today where a large population of programmers have to either carry this complexity in their heads or disrupt their flow to look it up, and then make a suitable choice, just to do such a simple thing?_
+Without getting into why this difference might exist (although see note 1 below), _we have a situation today where a large population of programmers have to either carry this complexity in their heads or disrupt their flow to look it up, and then make a suitable decision, just to do such a simple thing?_
 
 This might help us to understand why programmers are now using AI coding assistants to reduce context switching and work more efficiently on the actual problem they're trying to solve.
 
