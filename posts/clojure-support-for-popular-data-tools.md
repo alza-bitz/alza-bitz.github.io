@@ -59,7 +59,7 @@ Also, in general by my criteria the support classification is "support unknown":
 
 Although the [Snowpark](https://docs.snowflake.com/en/developer-guide/snowpark/java) library has Java and Scala bindings, it doesn't provide anything for Clojure. As such, it's currently not possible to interact with Snowflake using the Clojure way.
 
-To address this gap, I decided to try my hand at creating a [Clojure API for Snowflake](https://github.com/alza-bitz/snowflake-clj) as part of a broader effort to improve the overall situation regarding Clojure support for popular data tools.
+To address this gap, I decided to try my hand at creating a [Clojure API for Snowflake](https://github.com/alza-bitz/snowpark-clj) as part of a broader effort to improve the overall situation regarding Clojure support for popular data tools.
 
 The aim is to validate this approach as a foundation for enabling a wide range of data science or data engineering use cases from the Clojure REPL, in situations where Snowflake is the data warehouse of choice.
 
