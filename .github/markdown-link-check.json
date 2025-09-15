@@ -1,0 +1,12 @@
+{
+  "ignorePatterns": [
+    {
+      "comment": "Ignore all relative links (those that do not start with http:// or https://)",
+      "pattern": "^(?!https?://).*"
+    },
+    {
+      "comment": "Ignore all LinkedIn",
+      "pattern": "https?://(www\\.)?linkedin\\.com/.*"
+    }
+  ]
+}

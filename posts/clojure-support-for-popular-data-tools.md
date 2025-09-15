@@ -41,7 +41,7 @@ However, I found a number of issues that would need to be addressed in order to 
 Also, in general by my criteria the support classification is "support unknown":
 
 1.  CI/CD build [failing.](https://github.com/zero-one-group/geni/actions)
-1.  Version [0.0.42 api docs broken](https://cljdoc.org/d/zero.one/geni/0.0.42/doc/readme%20%20https://cljdoc.org/builds/73977), also affects version 0.0.41
+1.  Version [0.0.42 api docs](https://cljdoc.org/d/zero.one/geni/0.0.42/doc/readme) [broken](https://cljdoc.org/builds/73977), also affects version 0.0.41
 1. No commits since November 2023.
 1. No releases since November 2023.
 1. No PRs accepted or rejected since November 2023.
@@ -57,7 +57,7 @@ Also, in general by my criteria the support classification is "support unknown":
 
 ### Snowflake Interop with a New Clojure API!
 
-Although the [Snowpark](https://docs.snowflake.com/en/developer-guide/snowpark/java) library has Java and Scala bindings, it doesn't provide anything for Clojure. As such, it's currently not possible to interact with Snowflake using the Clojure way.
+Although the [Snowpark](https://docs.snowflake.com/en/developer-guide/snowpark/java/index) library has Java and Scala bindings, it doesn't provide anything for Clojure. As such, it's currently not possible to interact with Snowflake using the Clojure way.
 
 To address this gap, I decided to try my hand at creating a [Clojure API for Snowflake](https://github.com/alza-bitz/snowpark-clj) as part of a broader effort to improve the overall situation regarding Clojure support for popular data tools.
 

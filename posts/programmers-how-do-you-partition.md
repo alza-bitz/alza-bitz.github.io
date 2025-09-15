@@ -85,10 +85,10 @@ b) In recent times there has been a greater need for these kinds of functions ov
 
 ***
 
-[^1]: [https://spectrum.ieee.org/top-programming-languages-2024](https://spectrum.ieee.org/top-programming-languages-2024)
-[^2]: [https://openjdk.org/jeps/461](https://openjdk.org/jeps/461)
-[^3]: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy)
-[^4]: [https://spectrum.ieee.org/top-programming-languages-2024](https://spectrum.ieee.org/top-programming-languages-2024)
-[^5]: [https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/chunked.html](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/chunked.html)
-[^6]: [https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.array_chunks](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.array_chunks)
-[^7]: [https://clojuredocs.org/clojure.core/partition-all](https://clojuredocs.org/clojure.core/partition-all)
+[^1]: <https://spectrum.ieee.org/top-programming-languages-2024>
+[^2]: <https://openjdk.org/jeps/461>
+[^3]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy>
+[^4]: <https://spectrum.ieee.org/top-programming-languages-2024>
+[^5]: <https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/chunked.html>
+[^6]: <https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.array_chunks>
+[^7]: <https://clojuredocs.org/clojure.core/partition-all>
